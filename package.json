@@ -1,0 +1,26 @@
+{
+  "name": "minichatbot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint . --ext .ts",
+    "start": "tsc && node ./dist/index.js"
+  },
+  "keywords": [],
+  "author": "Jérôme TOMSKI (https://lecoints.fr/)",
+  "license": "BY-NC-ND 4.0 CC License",
+  "description": "Projet de MiniChatBot (TypeScript)",
+  "devDependencies": {
+    "@types/node": "^22.13.13",
+    "@typescript-eslint/eslint-plugin": "^8.28.0",
+    "@typescript-eslint/parser": "^8.28.0",
+    "eslint": "^9.23.0",
+    "globals": "^16.0.0",
+    "prettier": "^3.5.3",
+    "typescript-eslint": "^8.28.0"
+  },
+  "dependencies": {
+    "typescript": "^5.8.2"
+  }
+}

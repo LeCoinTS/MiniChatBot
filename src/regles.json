@@ -1,0 +1,51 @@
+[
+  {
+    "pattern": "bonjour|salut|hello|hey",
+    "responses": ["Salut ! Comment vas-tu aujourd’hui ?", "Bonjour, ravi de te voir !", "Hello, quoi de neuf ?"],
+    "isRegex": true
+  },
+  {
+    "pattern": "ça va|comment vas-tu|et toi ?",
+    "responses": ["Tout va bien pour moi, merci !", "Super bien, merci !", "À merveille, merci !"],
+    "isRegex": true
+  },
+  {
+    "pattern": "qui es-tu|tu es qui",
+    "responses": [
+      "Moi ? MiniChatBot ! Un petit programme créé en 2025 pour aider et divertir",
+      "Je suis MiniChatBot, un bout de code qui a pris vie grâce à un dev un peu tout fou !"
+    ],
+    "isRegex": true
+  },
+  {
+    "pattern": "blague",
+    "responses": [
+      "Pourquoi les programmeurs preferent le mode sombre ? Parce que la lumière attire les bugs !",
+      "Pourquoi le chat n’aime pas l’ordinateur ? Il a peur de la souris !",
+      "Pourquoi les fantômes sont nuls en mensonge ? Parce qu’on peut voir à travers eux !",
+      "Pourquoi le Wi-Fi est-il timide ? Parce qu’il n’aime pas trop se connecter aux gens !",
+      "Pourquoi les maths sont-elles tristes ? Parce qu’elles ont trop de problèmes !",
+      "Que dit une ampoule cassée ? J’ai pas d’idée lumineuse aujourd’hui !"
+    ],
+    "isRegex": true
+  },
+  {
+    "pattern": "au revoir|bye|a\\+",
+    "responses": [
+      "À bientôt, prends soin de toi ! (tape 'exit' pour sortir)",
+      "Bye bye, reviens vite ! (tape 'exit' pour sortir)",
+      "À plus tard, camarade ! (tape 'exit' pour sortir)"
+    ],
+    "isRegex": true
+  },
+  {
+    "pattern": "default",
+    "responses": [
+      "Hmm, je ne suis pas sûr de comprendre. Peux-tu reformuler ?",
+      "Oups, là tu me poses une colle !",
+      "Désolé, j'ai pas compris ta demande...",
+      "Euh… je passe mon tour sur celle-là !"
+    ],
+    "isRegex": false
+  }
+]

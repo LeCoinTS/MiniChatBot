@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "outDir": "./dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "noImplicitAny": true
+  },
+  "include": ["src"],
+  "exclude": ["dist", "node_modules"],
+  "tsc-alias": {
+    "resolveFullPaths": true,
+    "replacers": {
+      "base-url": {
+        "enabled": false
+      }
+    }
+  }
+}
