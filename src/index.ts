@@ -122,7 +122,7 @@ const main = async (): Promise<void> => {
         userInterface.prompt()
       }
     })
-    // Cas où il est demandé à l'interface utilisateur de se ferme
+    // Cas où il est demandé à l'interface utilisateur de se fermer
     .on("close", () => {
       console.log("\nChat terminé.")
     })
